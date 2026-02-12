@@ -41,7 +41,7 @@ pipeline {
             )
         }
         bat '''
-        "C:\\Users\\racha\\AppData\\Local\\Programs\\Python\Python310\\python.exe" mcp_agent.py jenkins.log
+        "C:\\Users\\racha\\AppData\\Local\\Programs\\Python\\Python310\\python.exe" mcp_agent.py jenkins.log
         '''
         }
     }
