@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class DemoApplication {
+    public void brokenMethod() {
+    int number = "AI";   // added error to invoke AI Agent
+    }
+
 
     @GetMapping("/")
     public String home() {
