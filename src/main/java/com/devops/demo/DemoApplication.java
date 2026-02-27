@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
     public void brokenMethod() {
-        int number ="20";
+        int number =20;
     // int number = "AI";   // added error to invoke AI Agent
     }
 
